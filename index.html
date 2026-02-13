@@ -12,44 +12,150 @@
 
 <body>
 
-    
-    <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+    <!-- ===== NAVBAR ===== -->
+
+    <nav class="navbar navbar-expand-lg bg-light py-3">
+
     <div class="container">
 
-        <!-- Logo -->
-        <a class="navbar-brand fw-bold text-primary" href="image/im.png">
+    <a class="navbar-brand fw-bold text-primary fs-3" href="#">
+       <img src="image/logo.png">
+    </a>
+
+     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+
+       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav fw-semibold">
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="#">HOME</a>
+        </li>
+
+
+         <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-warning" href="#" role="button" data-bs-toggle="dropdown">
+            PAGES
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Page 1</a></li>
+            <li><a class="dropdown-item" href="#">Page 2</a></li>
+          </ul>
+        </li>
+
+
+         <li class="nav-item">
+          <a class="nav-link text-dark" href="#">CONTACT</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<!-- ===== HERO SECTION 1  background ===== -->
+<section class="d-flex align-items-center text-white"
+  style="background: linear-gradient(90deg,#4e54c8 0%, #3f7be0 100%);
+         min-height: 90vh;">
+
+
+<div class="container">
+
+  <div class="row align-items-center">
+
+    <!-- LEFT SIDE -->
+
+    <div class="col-lg-6">
+
+    <h1 class="display-3 fw-bold mb-4">  Notre équipe </h1>
+
+
+
+    <p class="lead mb-3" style="max-width: 500px;">
+    Plus de 130 professionnels dévoués animés par une passion
+    commune pour la réalisation d'un travail exceptionnel.
+    </p>
+
+
+       <p class="mb-4">
+          <a href="#" class="text-white text-decoration-underline">
+            Image de Freepik
+          </a>
+        </p>
+
+         <a href="#" class="btn btn-warning btn-lg px-4">
+          Apprendre encore plus
         </a>
+</div>
 
-        <!-- Toggle button (mobile) -->
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-            <span class="navbar-toggler-icon"></span>
-        </button>
 
-        <!-- Menu -->
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-            <ul class="navbar-nav fw-semibold">
-                <li class="nav-item">
-                    <a class="nav-link text-dark" href="#">HOME</a>
-                </li>
-
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle text-warning active" href="#" role="button" data-bs-toggle="dropdown">
-                        PAGES
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">About</a></li>
-                        <li><a class="dropdown-item" href="#">Services</a></li>
-                    </ul>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link text-dark" href="#">CONTACT</a>
-                </li>
-            </ul>
-        </div>
+   <!-- RIGHT SIDE IMAGE -->
+      <div class="col-lg-6 text-center mt-5 mt-lg-0">
+        <img src="image/img bacground.png" class="img-fluid"
+             style="max-height: 500px;">
+      </div>
 
     </div>
-</nav>
+  </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       
+
+     
+
+
+
+     
+
+
+
+
+
+
+    
+
+
+    
+
+
 
 
 
